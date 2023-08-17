@@ -1,8 +1,11 @@
 name: Docker 
 
 on:
-  push:
-    tags: ["v*.*.*"]
+    push:
+        branches:
+            - master
+        tags:
+            - v0.1.0
 
 env:
   IMAGE_NAME: departments-api
