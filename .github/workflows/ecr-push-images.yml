@@ -3,7 +3,7 @@ name: Deploy Images to GHCR
 on:
   push:
     branches:
-      - master
+      - master 
 jobs:
       push_to_registry:
         name: lms app - payment image push to repo
