@@ -6,7 +6,7 @@ on:
       - master 
 jobs:
       push_to_registry:
-        name: lms app - payment image push to repo
+        name: lms app -  payment image push to repo
         runs-on: ubuntu-latest
         steps:
           - name: 'Checkout GitHub Action'
